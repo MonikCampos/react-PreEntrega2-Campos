@@ -5,7 +5,11 @@
     --terciario: #0E2940;
     --colorNavbar: #0C203B;
 }
-.navContainer{
+
+.MuiButton-text {
+    color: var(--primario) !important
+}
+/* .navContainer{
     width: 100%;
     background-color: var(--colorNavbar);
     height: 12vh;
@@ -26,18 +30,18 @@
     display: flex;
     align-items: self-end;
     font-family: 'Arsenica';
-}
+} */
 
-.brandText {
+/* .brandText {
     color: var(--primario);
     background-color: var(--colorNavbar);
-}
+} */
 
 body {
     background-color: var(--primario);    
 }
 
 img {
-    width: 100px;
-    height: 100px;
+    width: 90px;
+    height: 90px;
 }

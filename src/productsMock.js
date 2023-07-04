@@ -97,7 +97,7 @@ export const products = [
         category: "ampollas",
         stock: 30,
         price: 15000,
-        img: "https://res.cloudinary.com/dawadzlfe/image/upload/v1687896660/CODER-React/Dermo/Isdin/p10-Isdinceutics%20Flavo-C/Isdinceutics_Flavo-C1_rtxo2o.png"
+        img: "https://res.cloudinary.com/dawadzlfe/image/upload/v1688426213/CODER-React/Dermo/Isdin/p10-Isdinceutics%20Flavo-C/Isdinceutics_Flavo-C1_t3eki0.png"
     },
     {
         id:11,
