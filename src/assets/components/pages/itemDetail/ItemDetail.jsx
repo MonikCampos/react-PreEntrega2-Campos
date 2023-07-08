@@ -1,5 +1,6 @@
 import CounterContainer from "../../common/Counter/CounterContainer"
 import {
+  Button,
   Card,
   CardActions,
   CardContent,
@@ -7,6 +8,7 @@ import {
   Typography,
 } from "@mui/material";
 import "./ItemDetail.css"
+import { Link } from "react-router-dom";
 
 const ItemDetail = ( { product, agregarAlCarrito } ) => {
   return (
@@ -27,6 +29,7 @@ const ItemDetail = ( { product, agregarAlCarrito } ) => {
         </CardContent>
         <CardActions sx={{  backgroundColor: "#BFA4B3" }}>
           <CounterContainer stock={product.stock} agregarAlCarrito={agregarAlCarrito } />
+          <Link to="/"><Button sx={{  color: "#F2CEDB", border:"none", backgroundColor: "#0E2940" }} size="small" variant="contained">Volver</Button></Link>   
         </CardActions>
       </Card>
     </div>
