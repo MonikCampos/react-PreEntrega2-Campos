@@ -1,15 +1,15 @@
 :root {
-    --primario: #F2CEDB;
-    --primarioStrong: #BFA4B3;
-    --secundario: #7E778C;
-    --terciario: #0E2940;
-    --colorNavbar: #0C203B;
+    --primario: #f2cedb;
+    --primarioStrong: #bfa4b3;
+    --secundario: #7e778c;
+    --terciario: #0e2940;
+    --colorNavbar: #0c203b;
 }
 
-.MuiButton-text {
+/* .MuiButton-text {
     color: var(--primario) !important
-}
-/* .navContainer{
+} */
+.navContainer{
     width: 100%;
     background-color: var(--colorNavbar);
     height: 12vh;
@@ -28,17 +28,11 @@
 
 .containerBrand{
     display: flex;
-    align-items: self-end;
-    font-family: 'Arsenica';
-} */
-
-/* .brandText {
-    color: var(--primario);
-    background-color: var(--colorNavbar);
-} */
+    gap: 7px;
+}
 
 body {
-    background-color: var(--primario);    
+    background-color: var(--primario);
 }
 
 img {

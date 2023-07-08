@@ -1,11 +1,4 @@
 import "./ItemList.css"
-// const ItemList = ({saludo}) => {
-//     return (
-//         <div>
-//             <h2>{saludo}</h2>
-//         </div>
-//     )
-// }
 import ProductCard from "../../common/productCard/ProductCard";
 
 const ItemList = ({ items }) => {
