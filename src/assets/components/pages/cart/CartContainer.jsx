@@ -1,8 +1,8 @@
-
 const CartContainer = () => {
   return (
     <div>
-        <h1>Estoy en el carrito</h1>
+        <p></p>
+        <h2>Carrito de compras en construcción</h2>
     </div>
   )
 }

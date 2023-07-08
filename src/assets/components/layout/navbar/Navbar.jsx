@@ -1,7 +1,8 @@
-import CartWidgetContainer from "../../common/cartWidget/CartWidgetContainer";
+
 import "./Navbar.css"
 import { Link, Outlet } from "react-router-dom";
 import Button from '@mui/material/Button';
+import CartWidgetContainer from "../../common/cartWidget/CartWidgetContainer";
 
 const Navbar = () => {
   return (
